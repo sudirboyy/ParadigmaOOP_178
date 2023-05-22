@@ -15,16 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mainIA.cpp">
+    <ClCompile Include="Asosiasi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="anak.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ibu.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
