@@ -1,6 +1,10 @@
 #pragma once
 #ifndef IBU_H
 #define IBU_H
+#include <iostream>
+#include "anak.h"
+#include <vector>
+using namespace std;
 
 class ibu {
 public:
@@ -21,9 +25,9 @@ void ibu::tambahAnak(anak* pAnak) {
 }
 void ibu::cetakAnak() {
 	cout << "Daftar Anak dari Ibu \"" << this->nama << "\":\n";
-	for (auto& a : daftar_anal) {
+	for (auto& a : daftar_anak) {
 		cout << a->nama << "\n";
 	}
 	cout << endl;
 }
-#endif // !IBU_H
+#endif
